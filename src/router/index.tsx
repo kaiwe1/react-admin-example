@@ -8,7 +8,7 @@ import LazyLoad from "./utils/LazyLoad"
 
 export const routeItems = [
   {
-    path: "/", key:"/", label: "首页", element: <Navigate to="/login" />
+    path: "/", key:"/", label: "跳转登录", element: <Navigate to="/login" />
   },
   {
     path: "/login", key:"login", label: "登录", element: <Login />,
